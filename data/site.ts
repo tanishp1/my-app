@@ -1,10 +1,42 @@
 export const site = {
   name: "Luxe Salon & Spa",
-  tagline: "Look good. Feel amazing.",
+  tagline: "Pune's Premium Salon, Spa & Barbershop",
+  description: "Luxe Salon & Spa offers expert hair styling, beard grooming, spa treatments, nail art, and skin care in FC Road, Pune. Book your appointment today.",
   phone: "+91 98765 43210",
-  address: "FC Road, Pune, Maharashtra",
+  whatsapp: "919876543210",
+  email: "hello@luxesalon.in",
+  address: "FC Road, Pune, Maharashtra 411004",
   hours: "Mon–Sun: 10:00 AM – 9:00 PM",
+  mapUrl: "https://maps.google.com/?q=FC+Road+Pune",
+  instagram: "https://instagram.com/luxesalonpune",
+  facebook: "https://facebook.com/luxesalonpune",
+  rating: "4.9",
+  reviewCount: "320",
 };
+
+export const stats = [
+  { value: "8+", label: "Years of Excellence" },
+  { value: "15K+", label: "Happy Clients" },
+  { value: "20+", label: "Expert Stylists" },
+  { value: "4.9★", label: "Google Rating" },
+];
+
+export const reviews = [
+  { name: "Priya S.", rating: 5, text: "Best salon in Pune! My hair transformation was absolutely stunning. The stylists really listen to what you want.", service: "Hair Color" },
+  { name: "Rahul M.", rating: 5, text: "The beard grooming and head massage here is top-notch. Very hygienic and professional staff. Highly recommend!", service: "Beard & Grooming" },
+  { name: "Sneha K.", rating: 5, text: "Loved the gold facial treatment. My skin glowed for weeks! The ambience is so relaxing and luxurious.", service: "Facial & Skin" },
+  { name: "Amit D.", rating: 5, text: "Booked online, zero wait time. The keratin treatment was worth every rupee. Will definitely come back!", service: "Keratin Treatment" },
+  { name: "Neha R.", rating: 5, text: "The nail art team is incredibly talented. Got a bridal manicure done and everyone complimented it!", service: "Nail Art" },
+  { name: "Vikram P.", rating: 5, text: "Full body massage was deeply relaxing. Professional therapists, clean rooms, great music. 10/10 experience.", service: "Spa & Massage" },
+];
+
+export const faqs = [
+  { q: "Do I need to book an appointment in advance?", a: "Walk-ins are welcome but we recommend booking online to avoid wait times, especially on weekends." },
+  { q: "What are your working hours?", a: "We are open every day from 10:00 AM to 9:00 PM including Sundays and public holidays." },
+  { q: "Do you offer bridal packages?", a: "Yes! We offer complete bridal packages including hair, makeup, skin, nails and spa. Contact us for custom pricing." },
+  { q: "Is parking available?", a: "Yes, free parking is available right outside our salon on FC Road, Pune." },
+  { q: "Do you use branded products?", a: "We use only premium brands like L'Oréal, Wella, OPI and Forest Essentials for all treatments." },
+];
 
 export const services = [
   { icon: "✂️", name: "Hair Styling", desc: "Cuts, styling and blow-dry by expert stylists." },
